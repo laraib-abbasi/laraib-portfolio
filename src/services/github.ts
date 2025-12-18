@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const GITHUB_API_BASE = 'https://api.github.com';
-const GITHUB_USERNAME = 'laraib-dev'; // Replace with your actual GitHub username
+const GITHUB_USERNAME = 'laraib-abbasi'; // Replace with your actual GitHub username
 
 export interface GitHubRepo {
   id: number;
