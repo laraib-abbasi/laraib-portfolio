@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/laraib-dev', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com/in/laraib', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:laraib@example.com', label: 'Email' },
+  { icon: Github, href: 'https://github.com/laraib-abbasi', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://linkedin.com/in/laraib-abbasi-dev-899022263', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:itslaraibabbasi@gmail.com', label: 'Email' },
 ];
 
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
             viewport={{ once: true }}
             className="text-center md:text-left"
           >
-            <span className="text-2xl font-bold gradient-text">Laraib</span>
+            <span className="text-2xl font-bold gradient-text">Laraib Abbasi</span>
             <p className="text-muted-foreground mt-2 text-sm">
               Front-End Developer crafting digital experiences
             </p>
@@ -57,7 +57,7 @@ const Footer = () => {
           className="mt-8 pt-8 border-t border-border text-center"
         >
           <p className="text-muted-foreground text-sm flex items-center justify-center gap-1">
-            © {currentYear} Laraib. Built with
+            © {currentYear} Laraib's Portfolio. Built with
             <Heart className="w-4 h-4 text-primary fill-primary" />
             using React & Tailwind CSS
           </p>

@@ -104,10 +104,10 @@ export const useGitHub = () => {
           },
         ]);
         setUser({
-          login: 'laraib-dev',
+          login: 'laraib-abbasi',
           avatar_url: '',
-          html_url: 'https://github.com/laraib-dev',
-          name: 'Laraib',
+          html_url: 'https://github.com/laraib-abbasi',
+          name: 'Laraib Abbasi',
           bio: 'Front-End Developer',
           public_repos: 25,
           followers: 150,

@@ -14,20 +14,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'laraib@example.com',
-    href: 'mailto:laraib@example.com',
+    value: 'itslaraibabbasi@gmail.com',
+    href: 'mailto:itslaraibabbasi@gmail.com',
   },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Your City, Country',
+    value: 'Islamabad, Pakistan',
     href: null,
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (234) 567-8900',
-    href: 'tel:+12345678900',
+    value: '+92 3447249581',
+    href: 'tel:+923447249581',
   },
 ];
 

@@ -12,10 +12,10 @@ const navItems = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/laraib-dev', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com/in/laraib', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:laraib@example.com', label: 'Email' },
-];
+    { icon: Github, href: 'https://github.com/laraib-abbasi', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/laraib-abbasi-dev-899022263', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:itslaraibabbasi@gmail.com', label: 'Email' },
+  ];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,7 +49,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold gradient-text"
           >
-            Laraib
+            Laraib Abbasi
           </motion.span>
         </NavLink>
 

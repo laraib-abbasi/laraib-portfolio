@@ -48,12 +48,12 @@ const About = () => {
             </div>
             <h3 className="text-2xl font-bold mb-4">Hello! I'm Laraib</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I'm a passionate Front-End Developer based in [Your Location]. With a strong foundation 
+              I'm a passionate Front-End Developer based in Pakistan. With a strong foundation 
               in modern web technologies, I specialize in creating responsive, user-friendly web 
               applications that deliver exceptional user experiences.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My journey in web development started [X years ago], and since then, I've been 
+              My journey in web development started in the end of 2024, and since then, I've been 
               dedicated to mastering the craft of building beautiful digital experiences. I believe 
               in writing clean, maintainable code and staying curious about emerging technologies.
             </p>
@@ -116,7 +116,7 @@ const About = () => {
             <h4 className="text-xl font-semibold mb-4">Fun Fact</h4>
             <p className="text-muted-foreground">
               When I'm not coding, you can find me exploring new technologies, contributing to 
-              open-source projects, or enjoying a good cup of coffee while reading tech blogs.
+              open-source projects, or playing games.
             </p>
           </div>
         </motion.section>
