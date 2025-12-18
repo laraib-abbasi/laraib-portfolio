@@ -1,14 +1,14 @@
-import { motion } from 'framer-motion';
-import { ArrowDown, FileText, Send, Code2 } from 'lucide-react';
-import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
+import { motion } from "framer-motion";
+import { ArrowDown, FileText, Send, Code2 } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-50" />
-      
+
       {/* Gradient Orbs */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
@@ -29,7 +29,9 @@ const HeroSection = () => {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6"
             >
               <Code2 className="w-4 h-4 text-primary" />
-              <span className="text-sm text-primary font-medium">Available for freelance</span>
+              <span className="text-sm text-primary font-medium">
+                Available for freelance
+              </span>
             </motion.div>
 
             <motion.h1
@@ -38,8 +40,7 @@ const HeroSection = () => {
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
             >
-              Hi, I'm{' '}
-              <span className="gradient-text">Laraib Abbasi</span>
+              Hi, I'm <span className="gradient-text">Laraib Abbasi</span>
               <br />
               <span className="text-muted-foreground">Front-End Developer</span>
             </motion.h1>
@@ -50,8 +51,8 @@ const HeroSection = () => {
               transition={{ delay: 0.4 }}
               className="text-lg text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I craft beautiful, responsive, and user-friendly web experiences 
-              using modern technologies. Passionate about clean code and 
+              I craft beautiful, responsive, and user-friendly web experiences
+              using modern technologies. Passionate about clean code and
               pixel-perfect designs.
             </motion.p>
 
@@ -92,15 +93,15 @@ const HeroSection = () => {
             <div className="relative">
               {/* Decorative Ring */}
               <div className="absolute inset-0 rounded-full border-2 border-primary/20 animate-pulse-glow" />
-              
+
               {/* Profile Image Container */}
-              <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/30 relative z-10 bg-gradient-to-br from-primary/20 to-accent/20">
-                <div className="w-full h-full flex items-center justify-center bg-secondary/50">
-                <img src='/laraib.png'/>
-                  {/* <div className="text-center">
-                    <Code2 className="w-20 h-20 text-primary mx-auto mb-4" />
-                    <span className="text-2xl font-bold gradient-text">L</span>
-                  </div> */}
+              <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/30 relative z-10 bg-gradient-to-br from-primary/20 to-accent/20 group">
+                <div className="w-full h-full flex items-center justify-center bg-secondary/50 overflow-hidden">
+                  <img
+                    className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105 filter grayscale group-hover:grayscale-0"
+                    src="/laraib.png"
+                    alt="Laraib"
+                  />
                 </div>
               </div>
 
@@ -117,7 +118,9 @@ const HeroSection = () => {
                 transition={{ duration: 3, repeat: Infinity, delay: 0.5 }}
                 className="absolute -bottom-4 -left-4 px-4 py-2 rounded-lg glass-card"
               >
-                <span className="text-sm font-mono text-primary">TypeScript</span>
+                <span className="text-sm font-mono text-primary">
+                  TypeScript
+                </span>
               </motion.div>
             </div>
           </motion.div>
