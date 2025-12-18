@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code2, Palette, Zap, Heart, Coffee, Rocket } from 'lucide-react';
+import { Palette, Zap, Heart, Coffee, Rocket } from 'lucide-react';
 import SectionHeading from '@/components/common/SectionHeading';
 import SkillsGrid from '@/components/about/SkillsGrid';
 
