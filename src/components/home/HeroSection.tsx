@@ -96,10 +96,11 @@ const HeroSection = () => {
               {/* Profile Image Container */}
               <div className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/30 relative z-10 bg-gradient-to-br from-primary/20 to-accent/20">
                 <div className="w-full h-full flex items-center justify-center bg-secondary/50">
-                  <div className="text-center">
+                <img src='/laraib.png'/>
+                  {/* <div className="text-center">
                     <Code2 className="w-20 h-20 text-primary mx-auto mb-4" />
                     <span className="text-2xl font-bold gradient-text">L</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 

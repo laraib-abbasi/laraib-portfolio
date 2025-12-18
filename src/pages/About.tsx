@@ -44,7 +44,8 @@ const About = () => {
         >
           <div className="glass-card rounded-2xl p-8 md:p-12">
             <div className="w-20 h-20 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center mx-auto mb-6">
-              <Code2 className="w-10 h-10 text-primary" />
+             <img src="/laraib.png"/>
+              {/* <Code2 className="w-10 h-10 text-primary" /> */}
             </div>
             <h3 className="text-2xl font-bold mb-4">Hello! I'm Laraib</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
