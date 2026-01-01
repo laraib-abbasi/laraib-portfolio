@@ -26,8 +26,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+92 3447249581',
-    href: 'tel:+923447249581',
+    value: '+92 3476588401',
+    href: 'tel:+923476588401',
   },
 ];
 
