@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, FileText, Send, Code2 } from "lucide-react";
+import { ArrowDown, FileText, Send, Code2, Download } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -75,10 +75,16 @@ const HeroSection = () => {
                   Contact Me
                 </Link>
               </Button>
-              <Button size="lg" variant="secondary" asChild>
+              {/* <Button size="lg" variant="secondary" asChild>
                 <a href="/LaraibCV.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <FileText className="w-5 h-5" />
                   View CV
+                </a>
+              </Button> */}
+              <Button size="lg" variant="secondary" asChild>
+                <a href="/LaraibCV.pdf" download="Laraib_CV.pdf" className="flex items-center gap-2">
+                  <Download className="w-5 h-5" />
+                  Download CV
                 </a>
               </Button>
             </motion.div>
