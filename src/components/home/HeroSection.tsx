@@ -3,6 +3,7 @@ import { ArrowDown, FileText, Send, Code2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
+
 const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
@@ -75,9 +76,9 @@ const HeroSection = () => {
                 </Link>
               </Button>
               <Button size="lg" variant="secondary" asChild>
-                <a href="#" className="flex items-center gap-2">
+                <a href="/LaraibCV.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <FileText className="w-5 h-5" />
-                  Download CV
+                  View CV
                 </a>
               </Button>
             </motion.div>
