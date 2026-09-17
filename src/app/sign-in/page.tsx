@@ -1,0 +1,7 @@
+'use client'
+import { useState } from 'react'
+import { useRouter } from 'next/navigation'
+import Link from 'next/link'
+import { createAuthClient } from 'better-auth/react'
+const client=createAuthClient({baseURL:typeof window!=='undefined'?window.location.origin:undefined})
+export default function SignIn(){const [email,setEmail]=useState('');const [password,setPassword]=useState('');const [error,setError]=useState('');const router=useRouter();async function submit(e:React.FormEvent){e.preventDefault();setError('');const result=await client.signIn.email({email,password});if(result.error){setError('Unable to sign in. Check your details and try again.');return}router.push('/admin');router.refresh()}return <main className="wrap admin"><header className="nav"><Link href="/" className="mono">← Portfolio</Link></header><section style={{maxWidth:460,margin:'90px auto'}}><div className="eyebrow mono">Private area</div><h1>Welcome back.</h1><p className="muted">Sign in with your portfolio account to manage projects.</p><form onSubmit={submit} style={{display:'grid',gap:14,marginTop:28}}><label className="label">Email<input className="input" type="email" value={email} onChange={e=>setEmail(e.target.value)} required /></label><label className="label">Password<input className="input" type="password" value={password} onChange={e=>setPassword(e.target.value)} required /></label>{error&&<p style={{color:'#ff9d9d'}}>{error}</p>}<button className="button primary" type="submit">Sign in</button></form></section></main>}
