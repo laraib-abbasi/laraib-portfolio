@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, FileText, Send, Code2, Download } from "lucide-react";
+import { ArrowDown, Send, Code2, Download } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
